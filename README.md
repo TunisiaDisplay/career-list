@@ -1,10 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+This is a converted [figma design](https://www.figma.com/file/CAO4GGCjz9osgLudmDsVPj/Main) converted to nextjs app
 
 ## Using Docker
 
-Build your container: docker build -t nextjs-docker .
-Run your container: docker run -p 3000:3000 nextjs-docker
+Build your container: docker build -t career-list .
+
+
+Run your container: docker run -p 3000:3000 career-list
 
 
 ## Getting Started

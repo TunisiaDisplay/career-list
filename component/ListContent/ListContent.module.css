@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    gap: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .container{
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 32px 40px;
+        max-width: 1440px;
+        padding: 60px;
+    }
+}
+
+
+@media only screen and (min-width: 1368px) {
+    .container{
+        padding: 60px 144px;
+    }
+}
